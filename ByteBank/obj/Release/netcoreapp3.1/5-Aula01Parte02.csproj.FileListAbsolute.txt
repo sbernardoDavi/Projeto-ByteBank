@@ -1,0 +1,5 @@
+C:\CSharp\5-Aula01Parte02\obj\Release\netcoreapp3.1\5-Aula01Parte02.csproj.AssemblyReference.cache
+C:\CSharp\5-Aula01Parte02\obj\Release\netcoreapp3.1\5-Aula01Parte02.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharp\5-Aula01Parte02\obj\Release\netcoreapp3.1\5-Aula01Parte02.AssemblyInfoInputs.cache
+C:\CSharp\5-Aula01Parte02\obj\Release\netcoreapp3.1\5-Aula01Parte02.AssemblyInfo.cs
+C:\CSharp\5-Aula01Parte02\obj\Release\netcoreapp3.1\5-Aula01Parte02.csproj.CoreCompileInputs.cache

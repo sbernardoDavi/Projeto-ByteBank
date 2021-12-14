@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>5-Aula01Parte02</name>
+    </assembly>
+    <members>
+        <member name="T:_5_Aula01Parte02.ContaCorrente">
+            <summary>
+            Define uma conta corrente do banco ByteBank
+            </summary>
+        </member>
+        <member name="M:_5_Aula01Parte02.ContaCorrente.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Cria uma instância com os argumentos utilizadas abaixo. 
+            </summary>
+            <param name="agencia"> Valor da propriedade <see cref="P:_5_Aula01Parte02.ContaCorrente.NumeroAgencia"/>. Deve ser maior que 0 </param>
+            <param name="numero">Valor da propriedade <see cref="P:_5_Aula01Parte02.ContaCorrente.NumeroConta"/>. Deve ser maior que 0 </param>
+        </member>
+        <member name="M:_5_Aula01Parte02.ContaCorrente.Sacar(System.Double)">
+             <summary>
+             Realiza saque e atualiza o valor de <see cref="P:_5_Aula01Parte02.ContaCorrente.Saldo"/>
+             </summary>
+             <exception cref="T:System.ArgumentException"> Utilizada quando um valor negativo é atribuído ao <paramref name="valor"/></exception>
+            <exception cref="T:_5_Aula01Parte02.SaldoInsuficienteException"> Utilizada quando o v\lor de <paramref name="valor"/> é maior que o valor da propriedade <see cref="P:_5_Aula01Parte02.ContaCorrente.Saldo"/></exception>
+             <param name="valor">Representa o valor do saque, deve ser maior que zero e menor que o <see cref="P:_5_Aula01Parte02.ContaCorrente.Saldo"/> </param>
+        </member>
+    </members>
+</doc>
